@@ -1,26 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-      <style>
+  <head> 
+  <<link href="https://fonts.googleapis.com/css?family=K2D|Open+Sans:300i|Roboto:100,300,400,500"
+        rel = "stylesheet">
+  
+<style>
 .heading 
-{ background-color: black;
-    color: white;
-    padding: 20px; }
+{
+  font-family: 'Roboto', regular;
+  font-size: 24px;
+}
+.body 
+{
+   font-family: 'K2D', regular;
+   font-size: 20px
+}
+.firstheading
+{
+  font-family: 'Roboto', regular;
+  font-size: 32px;
+}
+.outer-box
+{
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+  min-height: 300px;
+}
+.name
+{
+  color: white;
+  font-family: 'Roboto', regular;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.picture
+{
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  float:left;
+  border:1px solid black;
+  
+}
+.bio
+{
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+}
 </style>
 </head>
-<body>
-    <!-- Title -->
-    <h1> How to Make Pizza! </h1>
-    <!-- Introduction -->
+  <body>
+    <! -- Title>
+    <h1 class = firstheading> How to Make Pizza! </h1>
+    <! -- Introduction> 
     
-    <p> Through this web page, I'll be teaching you how to make your own pepperoni pizza. </p>
+    <p class = body> Through this web page, I'll be teaching you how to make your own pepperoni pizza. </p>
  
-  <!-- H2 for first step -->
-<h2 class="heading";> Go to the grocery store! </h2>
-  <!-- Using p for explanation --> 
-  <p> You can choose whatever grocery store you'd like but you need the following: </p>
-  <!-- Using ul for list of ingredients -->
-  <ul style="list-style-type:square"> 
+  <! -- H2 for first step>
+<h2 class="heading";>Go to the grocery store! </h2>
+  <! -- Using p for explanation> 
+  <p class = body> You can choose whatever grocery store you'd like but you need the following: </p>
+  <! -- Using ul for list of ingredients> 
+  <ul style="list-style-type:square", class = body> 
   <li> Dough</li>
   <li> Tomato sauce</li>
   <li> Cheese </li>
@@ -29,9 +75,9 @@
   </ul>
   
   
-  <!-- H2 for second step -->
+  <! -- H2 for second step>
 <h2 class="heading">Prepare the ingredients! </h2>
-  <table> 
+  <table class = body> 
    <tr>
     <th>Prepare</th>
     <th>Steps</th>
@@ -55,17 +101,16 @@
 
   </table>
   
-  <!-- H2 for third step -->
+  <! -- H2 for third step>
  <h2 class="heading">Cook your pizza! </h2>
-  <p> Cook the finished pizza dough with all your toppings of choice in the oven at <q>450 degrees for 8-12 minutes</q> </p>
-  <a href= "https://www.homeruninnpizza.com/frozen-pizza/baking-instructions/"> Instruction reference</a>
-  <h2 class="heading">Go to the grocery store! </h2>
-  </body>
+  <p class = body> Cook the finished pizza dough with all your toppings of choice in the oven at <q>450 degrees for 8-12 minutes</q> </p>
+  <a href= "https://www.homeruninnpizza.com/frozen-pizza/baking-instructions/", class= body> Instruction reference</a>
 
-<!-- About me -->
-<h3> About the Creator </h3>
-<table>
-  <tr> 
-    <td><img src="https://hhannahblum.github.io/HowTo/images/00006.JPG" alt="Hannah" width="50" height:"50">
-    <td> Hannah is a current senior at NELHS who enjoys reading, designing web pages, and making pizza. </td> </tr>
-</table>
+  </body>
+<br> 
+<! -- About me>
+<div class = "outer-box">
+  <div class = "name"> <h1> About the Author </h1> </div>
+  <div class = "picture"><img src="https://hhannahblum.github.io/HowTo/images/00006.JPG" alt="Hannah" width="100" height:"100">  </div>
+  <div class = "bio"> <h2> Hannah is a current senior at NELHS who enjoys reading, designing web pages, and making pizza. </h2> </div>
+</div>
