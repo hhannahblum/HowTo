@@ -1,0 +1,60 @@
+.heading 
+{
+  font-family: 'Roboto', regular;
+  font-size: 24px;
+}
+.body 
+{
+   font-family: 'K2D', regular;
+   font-size: 20px
+}
+.firstheading
+{
+  font-family: 'Roboto', regular;
+  font-size: 32px;
+}
+.outer-box
+{
+  background-color: grey;
+  padding: 10px;
+  margin: 20px 10px;
+  height: 100%;
+  min-height: 300px;
+}
+.name
+{
+  color: white;
+  font-family: 'Roboto', regular;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.picture
+{
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  float:left;
+  border:1px solid black;
+  
+}
+.bio
+{
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+}
+.squarebullet
+{
+  list-style-type:square
+}
+h2
+{
+  color: darkred;
+}
+#ad
+{
+  float:right;
+  margin-right:10px;
+}
